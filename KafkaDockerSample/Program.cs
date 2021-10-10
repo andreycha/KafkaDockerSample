@@ -13,7 +13,7 @@ namespace KafkaDockerSample
 
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Type text and hit ENTER to send. type 'q' to quit.");
+            Console.WriteLine("Type text and hit ENTER to send. Type 'q' to quit.");
 
             consumer.Subscribe(KafkaTopic);
 
